@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    overflow: hidden;
+    font-family: ogg;
+    height: 100%;
+    width: 100%;
+}
+#nav{
+    display: flex;
+    justify-content: space-between;
+    height: 10%;
+    width: 100%;
+    position: relative;
+}
+#nav #logo{
+    padding-left: 3%;
+    display: flex;
+    width: 20%;
+    
+}
+#nav #logo #cn{
+    height: 70px;
+    opacity: 60%;
+}
+#nav #logo #char{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 15px;
+}
+#nav #search{
+    align-items: center;
+    width: 250px;
+
+}
+#nav #search #sea{
+    margin-top: 20px;
+    border-radius: 15px;
+    
+    left: 10%;
+    height: 30px;
+    width: 200px;
+}
+#icon{
+    
+    left: 2%;
+    top: 25px;
+    font: size 80%;
+
+}
+#nav #menu{
+  width: 250px;
+  display: flex;
+  align-items: center;
+  
+}
+#nav #menu #men{
+    margin-left: 100px;margin-right: 10px;
+}
+#nav #menu #men #iconn{
+    margin-top: 10%;
+}
+#main #center{
+    
+    position: relative;
+    display: flex;   
+    top: 30%;
+    left: 10px;
+    padding-left: 4%;
+    padding-right: 4%;
+    height: 60%;
+    width: 95%;
+    justify-content: space-between;
+}
+
+#main #center #popey{
+    position: relative;
+    height: 60% ;
+    width: 20%;
+    bottom: 0;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) .5s;   
+    border-radius: 15%;
+    background-color: chocolate;
+}
+
+.head{
+    position: absolute;
+    bottom: 15%;
+    margin-left: 10%;
+}
+.sub{
+    position: absolute;
+    bottom: 5%;
+    margin-left: 10%;
+    
+}
+#main #center #popey #pop{
+    height: 150%;
+    position: absolute;
+    bottom: 33%;
+    left: -11%;
+}
+
+#popey img:hover{
+ transform: scale(1.1);
+}
+#main #center #pika{
+    position: relative;
+    border-radius: 15%;
+    height: 60%;
+    width: 20%;
+    bottom: 0;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1);
+    background-color: crimson;
+}
+#pika img:hover{
+    transform: scale(1.1);
+}
+#main #center #pika #pica{
+    position: absolute;
+    height: 140%;
+    bottom: 76px;
+    left: -70px;
+}
+#main #center #kick{
+    position: relative;
+    border-radius: 15%;
+    height: 60%;
+    width: 20%;
+    bottom: 0;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1);
+    background-color: olive
+}
+#kick img:hover{
+    transform: scale(1.1);
+}
+#main #center #kick #kickb{
+    position: absolute;
+    height: 150%;
+    bottom: 65px;
+    left: -110px;
+}
+#bottom{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    z-index: 100px;
+    margin: 10% 5%;
+}
+#bleft{
+    display: flex;
+    width: 18%;
+    justify-content: space-between;    
+}
+
+#bright{
+    align-items: center;
+    display: flex;
+    width: 18%;
+    justify-content: space-between;
+}
